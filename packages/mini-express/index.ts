@@ -1,8 +1,8 @@
 // import express, { Request, NextFunction, Response } from "express";
-import express, { Request, NextFunction, Response } from "./mini-express";
+// import express, { Request, NextFunction, Response } from "./mini-express";
+import express, { Request, NextFunction, Response } from "./mini-express-class";
 
 const app = express();
-
 
 function globalMiddleware(req: Request, res: Response, next: NextFunction) {
   console.log("Global middleware");
